@@ -22,16 +22,23 @@ h2.second{
 
 .mapa{
   position:relative;
-  width:100vw;
+  width:100%;
+  max-width:100%;
+}
+
+.mapa img{
+  width:100%;
   height:auto;
   display:block;
 }
+
+
 button.station{
   position:absolute;
-  top:55.5%;
-  left:12.5%;
-  width:15px;
-  height:15px;
+  top:88%;
+  left:18%;
+  width:25px;
+  height:25px;
   background-color:hsl(220,100%,20%);
 
 }
